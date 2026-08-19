@@ -23,13 +23,13 @@ const config = {
   url: 'https://calix.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'docusaurus',
+  baseUrl: '/docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'calaix', // Usually your GitHub org/user name.
-  projectName: '/docusaurus/', // Usually your repo name.
-
+  projectName: 'docusaurus', // Usually your repo name.
+  trailingSlash: false,
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
