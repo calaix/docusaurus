@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'JSC Docusaurus',
+  tagline: 'Documentació construida amb docusaurus',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -19,16 +19,14 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // Configuración de GitHub Pages
+  url: 'https://calaix.github.io', // Tu dominio de GitHub Pages
+  baseUrl: '/docusaurus/', // El nombre de tu repositorio con barras al inicio y al final
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // Organización o Usuario de GitHub
+  organizationName: 'calaix', // Tu nombre de usuario de GitHub
+  projectName: 'docusaurus', // El nombre de tu repositorio
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -155,4 +153,6 @@ const config = {
     }),
 };
 
-export default config;
+// export default config;
+
+module.exports = config;
