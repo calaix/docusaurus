@@ -1,4 +1,3 @@
-// @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -7,7 +6,7 @@ const config = {
   tagline: 'Documentació construïda amb Docusaurus',
   favicon: 'img/favicon.ico',
 
-  // Configuració de GitHub Pages (Corregido)
+  // Configuració de GitHub Pages
   url: 'https://calaix.github.io',
   baseUrl: '/docusaurus/',
 
@@ -15,7 +14,6 @@ const config = {
   projectName: 'docusaurus',
   trailingSlash: false,
 
-  // Cambiado a 'warn' para evitar que rompa el build si hay un link interno que falla
   onBrokenLinks: 'warn',
 
   // Configuración de idioma
@@ -37,7 +35,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://calaix.github.io',
+          // CORREGIDO: Apunta al repositorio de GitHub y la carpeta de documentos
+          editUrl: 'https://github.com/calaix/docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: false,
