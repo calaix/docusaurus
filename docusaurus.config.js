@@ -41,7 +41,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/calaix/docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: false,
@@ -78,7 +78,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
          // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -96,6 +96,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        showLineNumbers: true,
       },
     }),
 };
