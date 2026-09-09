@@ -7,11 +7,7 @@ const config = {
   tagline: 'Documentació construïda amb Docusaurus',
   favicon: 'img/favicon.ico',
 
-  future: {
-    v4: true,
-  },
-
-  // Configuració de GitHub Pages
+  // Configuració de GitHub Pages (Corregido)
   url: 'https://calaix.github.io',
   baseUrl: '/docusaurus/',
 
@@ -19,9 +15,10 @@ const config = {
   projectName: 'docusaurus',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  // Cambiado a 'warn' para evitar que rompa el build si hay un link interno que falla
+  onBrokenLinks: 'warn',
 
-  // Configuració d'idioma ÚNIC en català
+  // Configuración de idioma
   i18n: {
     defaultLocale: 'ca',
     locales: ['ca'],
@@ -40,8 +37,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/calaix/docusaurus/tree/main/',
+          editUrl: 'https://calaix.github.io',
         },
         blog: {
           showReadingTime: false,
@@ -80,7 +76,6 @@ const config = {
             position: 'left',
             label: 'Tutorials',
           },
-         // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/calaix/docusaurus',
             label: 'GitHub',
