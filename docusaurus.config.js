@@ -2,8 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'JSC',
-  tagline: 'Documentació construïda amb Docusaurus',
+  title: 'El meu docusaurus',
+  tagline: 'Espai de documentació',
   favicon: 'img/favicon.ico',
 
   // Configuració de GitHub Pages
