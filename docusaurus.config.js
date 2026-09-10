@@ -66,7 +66,7 @@ const config = {
         title: 'El Meu Lloc',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/jsc.png',
         },
         items: [
           {
