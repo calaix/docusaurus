@@ -1,6 +1,6 @@
-# Guía Paso a Paso: Instalar y Desplegar Docusaurus en GitHub
-Esta guía te acompañará desde la creación de un sitio web con Docusaurus en tu máquina local hasta su publicación automatizada en GitHub Pages.
-## 1. Prerrequisitos
+# Guía Pas a Pas: Instalar y Desplegar Docusaurus en GitHub
+Aquesta guia t'ajudarà  des de la creació d'un lloc web amb Docusaurus en la teva màquina  local fins la seva publicació automatitzada a GitHub Pages.
+## 1. Prerrequisits
 Antes de comenzar, asegúrate de tener instalado en tu sistema:
 - Node.js: Versión 20.0 o superior (node -v).
 - Git: Para el control de versiones (git --version).
