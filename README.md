@@ -1,4 +1,4 @@
-# Guía Pas a Pas: Instalar y Desplegar Docusaurus a GitHub  (en revisiö)
+# Guía Pas a Pas: Instalar y Desplegar Docusaurus a GitHub  (en revisió)
 Aquesta guia t'ajudarà  des de la creació d'un lloc web amb Docusaurus en la teva màquina  local fins la seva publicació automatitzada a GitHub Pages.
 ## 1. Prerrequisits
 Antes de comenzar, asegúrate de tener instalado en tu sistema:
